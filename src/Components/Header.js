@@ -15,7 +15,7 @@ function Header() {
             width={80}
             alt=""
           />
-          <Navbar.Brand className="m-2" href="#home">
+          <Navbar.Brand className="m-2 mx-4 mt-3" href="#home">
             <h3>
               {" "}
               Jaya Engineering <br /> College
@@ -24,7 +24,7 @@ function Header() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
-            <div className="bg-primary text fw-bold ">
+            <div className=" text fw-bold ">
               <div>
                 <Nav className="Nav">
                   <Nav.Link href="#deets">Career</Nav.Link>

@@ -27,8 +27,8 @@ function Home() {
       </marquee>
       <Carousels />
       <Container>
-        <div className="blockContents m-2   pad-top-l">
-          <div className="introIcons justify-content-center m-5 justify-content-sm-between d-flex">
+        <div>
+          <div className="d-flex justify-content-around m-5">
             <div className="introIconWrap">
               <a
                 href="/undergraduate"
@@ -40,7 +40,7 @@ function Home() {
                   width={150}
                   className="introIconImage"
                 />
-                <p className="introIcon-p orange">
+                <p className="purple">
                   Undergraduate
                   <br />
                 </p>
@@ -54,7 +54,7 @@ function Home() {
                   alt="Graduate icon"
                   className="introIconImage"
                 />
-                <p className="introIcon-p pink">
+                <p className="purple">
                   graduate
                   <br />
                 </p>
@@ -68,7 +68,7 @@ function Home() {
                   alt="Transfer icon"
                   className="introIconImage"
                 />
-                <p className="introIcon-p magenta">Transfer</p>
+                <p className="purple">Transfer</p>
               </a>
             </div>
             <div className="introIconWrap">
@@ -82,7 +82,7 @@ function Home() {
                   alt="Financial aid icon"
                   className="introIconImage"
                 />
-                <p className="introIcon-p red">
+                <p className="purple">
                   Financial Aid <br />
                 </p>
               </a>
@@ -95,7 +95,7 @@ function Home() {
                   alt="Visit icon"
                   className="introIconImage"
                 />
-                <p className="introIcon-p purple">
+                <p className="purple">
                   Visit
                   <br />
                 </p>
@@ -105,7 +105,9 @@ function Home() {
         </div>
       </Container>
       <div>
-        <hr />
+        <div>
+          <div></div>
+        </div>
       </div>
     </div>
   );
